@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 207.75vb;
+}
+.header{
+    width: 100%;
+    height:70px ;
+    background-color: rgb(0, 0, 0);
+    display: flex; 
+      
+}
+.img img{
+    height: 50px;
+    width: 70px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.header h1{
+    color: rgb(249, 93, 14);
+    font-family: 'Rubik Moonrocks', cursive;
+ font-weight: bolder;
+ margin: 15px;
+
+}
+.listitems{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    gap: 30px;
+}
+.header ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+}
+.listitems nav {
+    display: flex;
+    gap: 30px;
+    margin-left: 525px ;
+}
+    .header ul li a{
+text-decoration: none;
+color: white;
+ font-weight:500 ;
+    }
+    .header ul li a:hover{
+        color:brown ;
+    }
+    .listitems button{
+        height:40px ;
+        width:150px ;
+        background-color:rgb(249, 93, 14); 
+        color:white;
+        margin-left: 30px;
+       
+    }
+    .listitems button:hover{
+        color:rgb(1, 1, 1) ;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+      
+    }
+    .entry{
+        height: 60%;
+        width: 50%;  
+        border: 2px solid white;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 200px;
+        left: 70px;
+        gap: 20px;
+        box-shadow: 3px 3px 3px  3px white;
+       
+        border-radius: 20px;
+    }
+    .form input{
+       margin: 10px;
+     
+       height: 30px;
+       width: 250px;
+       border-radius: 8px;
+       text-align: center;
+      
+    }
+    .gender{
+       border-radius: 8px;
+        margin: 10px;
+        padding: 10px;
+        background-color: rgb(255, 255, 255);
+        height: 30px;
+        width: 250px;
+        display: flex;
+        align-items: center;
+        
+    }
+    .entry h1{
+        color: white;
+        font-size:2.5rem;
+        font-family: cursive;
+        text-shadow: 2px 2px 2px orange;
+    }
+    .gender label{
+        color: rgba(125, 119, 119, 0.955);
+        text-align: center;
+        margin: 10px;
+    }
+.gender select{
+    color: rgba(125, 119, 119, 0.955);
+}
+
+
+
+
+
+   
+
+
